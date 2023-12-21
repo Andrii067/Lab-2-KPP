@@ -2,7 +2,8 @@
 
 namespace System
 {
-    class Rain {
+    class Rain
+    {
 
 
         public string Weather = "Дождь";
@@ -12,12 +13,12 @@ namespace System
 
         public void Print()
         {
-            Console.WriteLine("Погода:"+ Weather);
-            Console.WriteLine("Регiон:"+ region);
-            Console.WriteLine("Тиск:"+ Vise + "мм рт. ст.");
-            Console.WriteLine("Вiтер:"+ Wind + "м/c");
+            Console.WriteLine("Погода:" + Weather);
+            Console.WriteLine("Регiон:" + region);
+            Console.WriteLine("Тиск:" + Vise + "мм рт. ст.");
+            Console.WriteLine("Вiтер:" + Wind + "м/c");
         }
-        
+
     }
     class Snowfall
     {
@@ -36,6 +37,24 @@ namespace System
             Console.WriteLine("Вiтер:" + Wind + "м/c");
         }
     }
+    class Sunny
+    {
+
+
+        public string Weather = "Сонячно";
+        public string region = "Черкаси";
+        public int Vise = 711;
+        public int Wind = 18;
+
+        public void Print()
+        {
+            Console.WriteLine("\nПогода:" + Weather);
+            Console.WriteLine("Регiон:" + region);
+            Console.WriteLine("Тиск:" + Vise + "мм рт. ст.");
+            Console.WriteLine("Вiтер:" + Wind + "м/c");
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -45,6 +64,9 @@ namespace System
 
             Snowfall Kharkiv = new Snowfall();
             Kharkiv.Print();
+
+            Sunny Cherkasy = new Sunny();
+            Cherkasy.Print();
         }
     }
 }
