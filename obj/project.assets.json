@@ -8,17 +8,21 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Andres\\.nuget\\packages\\": {}
+    "C:\\Users\\Andres\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andres\\source\\repos\\main\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectUniqueName": "C:\\Qt\\shar\\Lab-2-KPP\\ConsoleApp2.csproj",
       "projectName": "ConsoleApp2",
-      "projectPath": "C:\\Users\\Andres\\source\\repos\\main\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectPath": "C:\\Qt\\shar\\Lab-2-KPP\\ConsoleApp2.csproj",
       "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andres\\source\\repos\\main\\ConsoleApp2\\obj\\",
+      "outputPath": "C:\\Qt\\shar\\Lab-2-KPP\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -60,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
       }
     }
   }
